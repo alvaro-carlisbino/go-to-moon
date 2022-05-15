@@ -27,6 +27,15 @@
         color: #fff;
         text-align: center;
         font-family: Lato;
+        
+      }
+
+      .accordion{
+          width: auto;
+          height: auto;
+      }
+
+      #titulo{
         font-weight: 300;
         font-size: 50px;
         letter-spacing: 10px;
@@ -775,9 +784,40 @@
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div id="title">
-            <span>Você quer conhecer a Lua?</span>
+            <span id="titulo">Lua - 🌙</span>
             <br>
-            <a href="/indo"><button type="button" class="btn btn-outline-light"><span></span>Quero conhecer a Lua!</span></button></a>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      O que é a Lua?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A Lua é o único satélite natural da Terra e o quinto maior do Sistema Solar. É o maior satélite natural de um planeta no sistema solar em relação ao tamanho do seu corpo primário, tendo 27% do diâmetro e 60% da densidade da Terra, o que representa ¹⁄₈₁ da sua massa.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Atmosfera
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Considera-se que a Lua não possui atmosfera, pois ela não pode absorver quantidades mensuráveis de radiação, não parece possuir camadas ou auto-circulação e requer reabastecimento constante, dada a alta taxa em que a atmosfera é perdida para o espaço.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Estágios
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><b>Cheia</b>, <b>minguante</b>, <b>Nova</b> e <b>Crescente</b> são as quatro fases da Lua. O planeta Terra possui apenas um satélite natural, a Lua. Apesar de ser o segundo corpo mais brilhante no céu, atrás somente do Sol, a Lua não possui brilho próprio, sendo iluminada pela luz solar.</div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
 
