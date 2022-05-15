@@ -12,7 +12,9 @@
     "fastify": "^3.28.0",
     "fastify-formbody": "^5.2.0",
     "fastify-static": "^4.6.1",
+    "forwarded": "^0.2.0",
     "handlebars": "^4.7.7",
+    "ipaddr.js": "^2.0.1",
     "point-of-view": "^5.2.0"
   },
   "engines": {
